@@ -47,7 +47,6 @@ public class Solution {
             for(int row_i=0; row_i<rows; row_i++){
                 if(((row_i*collumns)+collumn_i) < (input.length())){
                     output += matrix[row_i][collumn_i];
-                    //System.out.println("Hi");
                 }
             }
             if(collumn_i < (collumns-1)){
@@ -55,6 +54,5 @@ public class Solution {
             }
         }
         System.out.println(output);
-        //System.out.println("Hello");
     }
 }
